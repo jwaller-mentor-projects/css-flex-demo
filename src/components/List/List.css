@@ -1,14 +1,23 @@
+.right_panel {
+  /* border: 1px solid green; */
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .list_wrapper {
   border: 1px solid black;
-  width: 40vw;
+  width: 30vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .list_items {
-  border: 1px solid red;
-  height: 60vh;
-  /* justify-content: center; */
-  align-items: center;
+  /* border: 1px solid red; */
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

@@ -19,9 +19,11 @@ class List extends Component {
     });
 
     return (
-      <div className="list_wrapper">
-        <h3>List of Puppy Names</h3>
-        <div className="list_items">{puppyNames}</div>
+      <div className="right_panel">
+        <div className="list_wrapper">
+          <h3>List of Puppy Names</h3>
+          <div className="list_items">{puppyNames}</div>
+        </div>
       </div>
     );
   }
