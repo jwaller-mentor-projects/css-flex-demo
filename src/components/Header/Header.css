@@ -1,0 +1,20 @@
+.header_wrapper {
+  background: yellow;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 25vw;
+  justify-content: space-between;
+}
